@@ -1,4 +1,4 @@
-# **Bài 1:Task**
+# ***Bài 1:Task***
 ## **Tóm tắt**:
 
 #### Có $n$ học sinh và $k$ đề .Phát đề theo thứ tự từ trái qua phải từ trên xuống dưới .Mỗi bàn có $2$ học sinh. Học sinh $1$ ngồi ở vị trí hàng $p$ cột $q$
