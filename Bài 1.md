@@ -10,7 +10,8 @@
 - $1 \le q \le 2$.
 ## **+Thuật toán**:
 #### Ta sẽ tìm xem thứ tự ngồi của học sinh $1$ là thứ tự thứ mấy nếu ta đi từ đầu lớp học xuống vị trí đấy theo thứ tự từ $trái$ qua $phải$ từ $trên$ xuống $dưới$.
-#### Gọi thứ tự này là $value$.Khi đó vị trí gần nhất cũng có đề $k$ là $value-k$ và $value+k$.Ta chỉ cần xác định $hàng$ và $cột$ của từng vị trí 
+#### Gọi thứ tự này là $value$.Khi đó vị trí gần nhất cũng có đề $k$ là $value-k$ và $value+k$.Ta chỉ cần xác định $hàng$ và $cột$ của từng vị trí.Ưu tiên vị trí ngồi trên
+#### Nếu không có vị trị thỏa in ra ***-1***
 ## **CODE**: 
 ```
     int value=(p-1)*2+(q);
