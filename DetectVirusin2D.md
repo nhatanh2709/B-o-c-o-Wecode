@@ -16,7 +16,7 @@
 #### (**3**) ($1 \le s.size \le 10$)
 #### Bài này ta có thể Trie theo 2 cách:
 #### **Cách 1**:
-- Từ (**2**) và (**3**) ta sẽ xây dựng cây ***Trie*** bằng cách tạo $n * m$ xâu theo chiều ngang và $n * m$ xâu theo chiều dọc .Với mỗi vị trí ($i$ , $j$) trên bảng ta sẽ tạo ra 1 xâu $p$ ($1 \le p \le 10$) theo thứ tự từ trái sang phải khi đó hoặc từ trên xuống dưới và thêm vào ***Trie***.
+- Từ (**2**) và (**3**) ta sẽ xây dựng cây ***Trie*** bằng cách tạo $n * m$ xâu theo chiều ngang và $n * m$ xâu theo chiều dọc .Với mỗi vị trí ($i$ , $j$) trên bảng ta sẽ tạo ra 1 xâu $p$ ($1 \le p \le 10$) theo thứ tự từ trái sang phải hoặc từ trên xuống dưới và thêm vào ***Trie***.
 - Sau đó với mỗi truy vấn ta duyệt trên cây ***Trie*** xem thử xâu s có tồn tại hay không
 - Để tối ưu thời gian tạo xâu mới khi  ta có thể sử dụng ***deque*** khi gọi trace là xâu ta tạo ở vị trí trước đó .Khi chuyển sang vị trí mới ta chỉ cần xóa kí tự ở đầu ***deque*** và thêm kí tự hiện tại vào cuối ***deque*** 
 - **ĐPT Time** ($2 * n * m * 10 * 26+q*10$)
