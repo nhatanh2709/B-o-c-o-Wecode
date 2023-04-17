@@ -7,8 +7,9 @@
 - $2 \le Q \le 10^{4}$.
 - $1 \le s.size \le 10$.
 ## **Thuật toán**:
-### ***Thuật duyệt trâu***
-#### Với mỗi vị trị ($i$ , $j$) trên bảng ta kiểm tra thử có thể tạo ra 1 xâu có độ dài $s$.size gọi là $p$ theo chiều dọc hay chiều ngang hay ko.Rồi ta so sánh với xâu $s$ có bằng $p$ hay không
+### ***Thuật duyệt trâu***:
+#### Với mỗi vị trị ($i$ , $j$) trên bảng ta sẽ tạo ra một xâu có độ dài $s.size$ theo chiều ngang hay chiều dọc .Gọi xâu đó là $p$.
+#### Sau đó ta so sánh với xâu $s$ có bằng $p$ hay không.
 ### ĐPT Time *O*($2 * m * n * q$)
 ### **Thuật toán AC**:
 #### (**1**) Việc so sánh 2 xâu 1 cách nhanh chống khiến ta nghỉ đến 1 cấu trúc dữ liệu quen thuộc là cây Trie.
