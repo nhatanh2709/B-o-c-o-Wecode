@@ -14,7 +14,7 @@
 #### (**1**) Việc so sánh 2 xâu 1 cách nhanh chống khiến ta nghỉ đến 1 cấu trúc dữ liệu quen thuộc là cây Trie.
 #### (**2**) Với mỗi vị trí ($i$, $j$) trên bảng nếu ta thêm xâu từ vị trí ($i$ , $j$) đến ($i$ , $m$) hoặc ($n$ , $j$) vào cây ***Trie*** thì nếu xét 1 xâu $s$ bất kì thì nó sẽ là tiền tố một xâu bất kì trên cây ***Trie*** 
 #### (**3**) ($1 \le s.size \le 10$)
-#### (**4**) Để tối ưu thời gian tạo xâu mới khi  ta có thể sử dụng ***deque*** khi gọi trace là xâu ta tạo ở vị trí trước đó .Khi chuyển sang vị trí mới ta chỉ cần xóa kí tự ở đầu ***deque*** và thêm kí tự hiện tại vào cuối ***deque***
+#### (**4**) Để tối ưu thời gian tạo xâu mới khi  ta có thể sử dụng ***deque*** khi gọi trace là xâu ta tạo ở vị trí trước đó .Khi chuyển sang vị trí mới ta chỉ cần xóa kí tự ở đầu ***trace*** và thêm kí tự hiện tại vào cuối ***trace***
 #### Bài này ta có thể Trie theo 2 cách:
 #### **Cách 1**:
 - Từ (**2**) và (**3**) và (**4**) ta sẽ xây dựng cây ***Trie*** bằng cách tạo $n * m$ xâu theo chiều ngang và $n * m$ xâu theo chiều dọc .Với mỗi vị trí ($i$ , $j$) trên bảng ta sẽ tạo ra 1 xâu $p$ ($1 \le p \le 10$) theo thứ tự từ trái sang phải hoặc từ trên xuống dưới và thêm vào ***Trie***.
