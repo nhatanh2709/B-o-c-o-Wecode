@@ -1,7 +1,8 @@
 # ***Bài 11 :DetectVirusin2D***
 **
 ## **Tóm tắt**:
-#### Cho một bảng $n$ * $m$ kí tự $Latin$ in thường .Một dãy các kí tự liên tiếp theo hàng hoặc theo cột tạo thành 1 xâu .Cho $q$ truy vấn.Mỗi truy vấn là xâu $s$.Có thể tao thành xâu $s$ bằng các kí tự trong bảng hay không? 
+#### Cho một bảng $n$ * $m$ kí tự $Latin$ in thường .Một dãy các kí tự liên tiếp theo hàng hoặc theo cột tạo thành 1 xâu 
+#### Cho $q$ truy vấn:Mỗi truy vấn là xâu $s$ . Có thể tao thành xâu $s$ bằng các kí tự trong bảng hay không? 
 ## **Ràng buộc:**
 - $1 \le n*m \le 10^{5}$ .
 - $2 \le Q \le 10^{4}$.
